@@ -1,0 +1,6 @@
+remote_state_bucket = "bucketname"
+remote_state_key    = "layer1/infra.tfstate"
+instance_type       = "t2.micro"
+key_pair            = "terraform"
+max_size            = "2"
+min_size            = "1"
